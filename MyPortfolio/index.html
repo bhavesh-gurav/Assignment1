@@ -1,0 +1,583 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"
+      type="text/javascript"
+      language="javascript"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    ></script>
+
+    <script src="JS/wow.min.js" type="text/javascript"></script>
+    <link href="CSS/animate.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+      new WOW().init();
+    </script>
+
+    <style type="text/css">
+      #navbar-row {
+        background-color: darkred;
+      }
+      #HeaderDiv a.navbar-brand {
+        font-size: 40px;
+        color: blue;
+        font-family: Brush Script MT;
+        text-shadow: 0 0 10px yellow;
+      }
+      #navbarCollapse li b {
+        color: #ffffff;
+      }
+
+      .fullscreen_bg {
+        position: relative;
+        right: 0;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        overflow: hidden;
+      }
+      .fullscreen_bg_video {
+        position: absolute;
+        width: auto;
+        height: auto;
+        min-width: 100%;
+        min-height: 100%;
+      }
+      #profile-image {
+        border-radius: 50%;
+      }
+      #Home {
+        height: auto;
+        padding-bottom: 40px;
+        color: #fff;
+        font-weight: bold;
+      }
+
+      #HomeRow {
+        padding-top: 7%;
+      }
+      #HomeRow a i.fa {
+        color: #ffffff;
+      }
+
+      #HomeRow div.col-lg-offset-3 {
+        background: rgba(0, 0, 0, 0.7);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px Blue;
+      }
+
+      #social-media {
+        cursor: pointer;
+      }
+
+      #TechnicalSummary {
+        height: auto;
+        padding-bottom: 40px;
+        color: #fff;
+        background-attachment: fixed;
+        background-image: url("Images/About_Image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 20px;
+        line-height: 1.5;
+      }
+      #TechnicalSummaryRow {
+        padding-top: 7%;
+      }
+      #TechnicalSummary h1 {
+        font-family: Monotype Corsiva;
+      }
+      #Qualifications {
+        background-attachment: fixed;
+        background-image: url("Images/Qualifications_Image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 20px;
+        padding-bottom: 40px;
+        color: #000000;
+      }
+      #QualificationsRow {
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
+      #QualificationsRow div.col-lg-offset-1 {
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 8px;
+        box-shadow: 0px 0px 18px blue;
+      }
+      #Qualifications table {
+        width: 100%;
+        margin-top: 50px;
+      }
+      #Qualifications table tr td {
+        padding-bottom: 20px;
+      }
+      #Qualifications table tr td:first-child {
+        width: 30%;
+        padding-left: 10px;
+      }
+
+      #Skills {
+        background-attachment: fixed;
+        background-image: url("Images/Qualifications_Image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 20px;
+        padding-bottom: 40px;
+        color: #000000;
+      }
+      #SkillsRow {
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
+      #SkillsRow div.col-lg-offset-5 {
+        padding: 10px;
+        background-color: #dcdcdc;
+        border-radius: 8px;
+        box-shadow: 0px 0px 18px blue;
+        opacity: 0.8;
+      }
+      #Skills table {
+        width: 100%;
+        margin-top: 50px;
+      }
+      #Skills table tr td {
+        padding-bottom: 20px;
+      }
+      #Skills table tr td:first-child {
+        width: 30%;
+        padding-left: 10px;
+      }
+      #Curricular {
+        background-attachment: fixed;
+        background-image: url("Images/Qualifications_Image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 20px;
+        padding-bottom: 40px;
+        color: #000000;
+      }
+      #CurricularRow {
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
+      #Curricular div.col-lg-offset-1 {
+        padding: 10px;
+        background-color: #dcdcdc;
+        border-radius: 8px;
+        box-shadow: 0px 0px 18px blue;
+        opacity: 0.8;
+      }
+      #Curricular table {
+        width: 100%;
+        margin-top: 50px;
+      }
+      #Curricular table tr td {
+        padding-bottom: 20px;
+      }
+      #Curricular table tr td:first-child {
+        width: 30%;
+        padding-left: 10px;
+      }
+
+      #Projects {
+        background-attachment: fixed;
+        background-image: url("Images/Qualifications_Image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 20px;
+        padding-bottom: 40px;
+        color: #000000;
+      }
+      #ProjectsRow {
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
+      #ProjectsRow div.col-lg-offset-5 {
+        padding: 10px;
+        background-color: #dcdcdc;
+        border-radius: 8px;
+        box-shadow: 0px 0px 18px blue;
+        opacity: 0.8;
+      }
+      #Projects table {
+        width: 100%;
+        margin-top: 50px;
+      }
+      #Projects table tr td {
+        padding-bottom: 20px;
+        padding-left: 20px;
+      }
+      #Projects table tr td:first-child {
+        width: 30%;
+        padding-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <nav
+        role="navigation"
+        class="navbar navbar-inverse navbar-fixed-top"
+        id="navbar-row"
+        style="z-index: 1000"
+      >
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header" id="HeaderDiv">
+          <button
+            type="button"
+            data-target="#navbarCollapse"
+            data-toggle="collapse"
+            class="navbar-toggle"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" id="brand-name" class="navbar-brand">Bhavesh Gurav</a>
+        </div>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+          <ul
+            class="nav navbar-nav navbar-right"
+            style="font-size: 13px; padding-right: 15px"
+          >
+            <li>
+              <a href="#Home"><b>HOME</b></a>
+            </li>
+            <li>
+              <a href="#TechnicalSummary"><b>Technical Summary</b></a>
+            </li>
+            <li>
+              <a href="#Qualifications"><b>Qualifications</b></a>
+            </li>
+            <li>
+              <a href="#Skills"><b>Skills</b></a>
+            </li>
+            <li>
+              <a href="#CurricularRow"><b>Curricular Activities</b></a>
+            </li>
+            <li>
+              <a href="#ProjectsRow"><b>Projects</b></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div id="Home" class="fullscreen_bg">
+      <video
+        src="Video/ProfileBackground.mp4"
+        autoplay
+        loop
+        muted
+        class="fullscreen_bg_video"
+      ></video>
+      <div class="row" id="HomeRow">
+        <div
+          class="col-lg-offset-3 col-md-offset-3 col-sm-offset-2 col-lg-6 col-md-6 col-sm-8 col-xs-12 wow slideInDown"
+          data-wow-duration="3s"
+        >
+          <center>
+            <img
+              id="profile-image"
+              src="Images/ProfileImage.jpg"
+              alt="BHAVESH GURAV"
+            />
+          </center>
+          <center><h2>I'M BHAVESH GURAV</h2></center>
+          <center>
+            <h5>Trainee Software Developer At KCS</h5>
+            <hr />
+          </center>
+          <div class="row">
+            <div
+              class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-5 col-md-5 col-sm-5"
+            >
+              <center><i class="fa fa-2x fa-phone"></i> +91- 8412024395</center>
+            </div>
+            <div class="col-lg-5 col-md-6 col-sm-6">
+              <center>
+                <i class="fa fa-2x fa-envelope"></i>
+                <a
+                  href="mailto:bhavesh.gurav.in@gmail.com"
+                  style="color: #ffffff"
+                  >bhavesh.gurav.in@gmail.com</a
+                >
+              </center>
+            </div>
+          </div>
+          <hr />
+          <div class="row">
+            <div
+              class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-10 col-md-10 col-sm-10"
+            >
+              <center>
+                <i class="fa fa-2x fa-map-marker"></i> Patil Wada, Khalche Gaon,
+                Shirpur Dist. Dhule, Maharashtra, India
+              </center>
+            </div>
+          </div>
+          <hr />
+          <center>
+            <a href="#"><i class="fa fa-2x fa-facebook-square"></i></a> &nbsp;<a
+              href="#"
+              id="social-media"
+              ><i class="fa fa-2x fa-twitter-square"></i
+            ></a>
+            &nbsp;<a href="#" id="social-media"
+              ><i class="fa fa-2x fa-linkedin-square"></i
+            ></a>
+            &nbsp;<a href="#"
+              ><i class="fa fa-2x fa-instagram" id="social-media"></i
+            ></a>
+          </center>
+        </div>
+      </div>
+    </div>
+    <div
+      id="TechnicalSummary"
+      class="container-fluid wow bounceIn"
+      data-wow-duration="3s"
+    >
+      <div class="row" id="TechnicalSummaryRow">
+        <div
+          class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-10 col-md-10 col-sm-10"
+        >
+          <center>
+            <h1><i class="fa fa-gears"></i> Technical Summary</h1>
+            <hr />
+          </center>
+          <ul>
+            <li>
+              An Master of Computer Application post graduated from R C Patel
+              IMRD College, Shirpur - North Maharashtra University
+            </li>
+            <li>
+              I have good knowledge in web Developement skills like HTML, CSS,
+              JavaScript, PHP - JQuery, Bootstrap, TailwindCss
+            </li>
+            <li>
+              In database used for Web Development projects like MS-Access,
+              MySQL, SQLServer in all project.
+            </li>
+            <li>
+              I build project Cafeteria Managemen System in C#.Net with Database
+              MySQL At my post graduation level.
+            </li>
+            <li>
+              I was build Website for my team in FrontEnd HTML, CSS, JavaScript,
+              TailwindCSS - BackEnd PHP and Database MySQL
+            </li>
+            <li>I have build live website for a company using wordpress.</li>
+            <li>In present Trainee Software Developer in KCS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="Qualifications" class="container-fluid">
+      <div class="row" id="QualificationsRow">
+        <div
+          class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-6 col-md-6 col-sm-6 wow slideInLeft"
+          data-wow-duration="3s"
+        >
+          <center>
+            <br />
+            <h2>
+              <i class="fa fa-object-group" aria-hidden="true"></i>Education
+              Qualification
+            </h2>
+            <hr />
+          </center>
+          <table class="table table-responsive">
+            <tr>
+              <td>Year<br />2019 - 2022</td>
+              <td>
+                Master Of Computer Application <br />
+                From R C Patel IMRD College <br />
+                North Maharashtra University <br />
+                (First class with Distinction)
+              </td>
+            </tr>
+            <tr>
+              <td>Year<br />2016 - 2019</td>
+              <td>
+                Bachelor Of Computer Application <br />
+                From R C Patel ACS College <br />
+                North Maharashtra University <br />
+                (First class with Distinction)
+              </td>
+            </tr>
+            <tr>
+              <td>Year<br />2015 - 2016</td>
+              <td>
+                Higher Secondary Class <br />
+                From P B M Junior College <br />
+                With 65.20% Marks
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div id="Skills" class="container-fluid">
+      <div class="row" id="SkillsRow">
+        <div
+          class="col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-lg-6 col-md-6 col-sm-6 wow slideInRight"
+          data-wow-duration="3s"
+        >
+          <center>
+            <br />
+            <h2><i class="fa fa-object-group"></i> Technical Skills</h2>
+            <hr />
+          </center>
+          <table>
+            <tr>
+              <td>Programming Languages:</td>
+              <td>C, C++, Visual C#, Java, JavaScript</td>
+            </tr>
+            <tr>
+              <td>Tools & Technologies:</td>
+              <td>
+                Microsoft .Net (Specifically ASP .Net), ADO .Net, WPF, WCF
+              </td>
+            </tr>
+            <tr>
+              <td>Databases:</td>
+              <td>Microsoft SQL Server, Microsoft Access, MySQL</td>
+            </tr>
+            <tr>
+              <td>Operating Systems:</td>
+              <td>Microsoft Windows, Linus(Red Hat)</td>
+            </tr>
+            <tr>
+              <td>Others:</td>
+              <td>Multithreading, SDLC, OOPS</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div id="Curricular" class="container-fluid">
+      <div class="row" id="CurricularRow">
+        <div
+          class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-6 col-md-6 col-sm-6 wow slideInLeft"
+          data-wow-duration="3s"
+        >
+          <center>
+            <br />
+            <h2>
+              <i class="fa fa-object-group" aria-hidden="true"></i>Curricular
+              Activities
+            </h2>
+            <hr />
+          </center>
+          <table class="table table-responsive">
+            <tr>
+              <td>Year<br />2021</td>
+              <td>
+                Certificate of participation In Moto Corp Season 6 <br />
+                Online Coding Hackthon Competition
+              </td>
+            </tr>
+            <tr>
+              <td>Year<br />2019</td>
+              <td>
+                Institute Level Poster Presentation (Future Tech) At R. C. Patel
+                Institute <br />
+                Rank 1<sup>st</sup>
+              </td>
+            </tr>
+            <tr>
+              <td>Year<br />2015</td>
+              <td>
+                University Level Poster Presentation In Information Technology
+                At NMU, Jalgaon <br />
+                Certification of Participate
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div id="Projects" class="container-fluid">
+      <div class="row" id="ProjectsRow">
+        <div
+          class="col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-lg-6 col-md-6 col-sm-6 wow slideInRight"
+          data-wow-duration="3s"
+        >
+          <center>
+            <br />
+            <h2><i class="fa fa-object-group"></i> Projects</h2>
+            <hr />
+          </center>
+          <table>
+            <tr>
+              <td>Restarant Management System - 2019</td>
+              <td>
+                Language : Visual C# <br />
+                Database : MS-Access <br />
+                Tool : Visual Studio 2012
+              </td>
+            </tr>
+            <tr>
+              <td>Software Company Website</td>
+              <td>
+                Front-End : HTML5, CSS3, javascript ,TailwindCSS <br />
+                Back-End : PHP <br />
+                Database : MySQL <br />
+                Tool : Visual Studio Code
+              </td>
+            </tr>
+            <tr>
+              <td>Cafeteria Management System</td>
+              <td>
+                Language : Visual C# <br />
+                Database : MySQL <br />
+                Tool : Visual Studio 2017
+              </td>
+            </tr>
+            <tr>
+              <td>GoBioServices Website</td>
+              <td>
+                This is Live Website
+                <a href="http://www.gobioservice.com" target="__blank">
+                  gobioservice</a
+                >
+                <br />
+                Tool : wordpress 5.9.0
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

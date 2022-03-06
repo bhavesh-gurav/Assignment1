@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation Box</title>
+    <style type="text/css">
+		div {
+			width: 100px;
+			height: 100px;
+			background-color: cyan;
+			position: relative;
+			animation-name: Anime;
+			animation-duration: 15s;
+			animation-iteration-count: infinite;
+		}
+	
+		@keyframes Anime{
+			0%{background-color: aqua; left:0px; top:0px;transform:rotate(0deg);}
+			25%{background-color: navy; left:200px; top:0px;transform:rotate(90deg);}
+			50%{background-color: yellow; left:200px; top:200px;transform:rotate(180deg);}
+			75%{background-color:green; left:0px; top:200px;transform:rotate(270deg);}
+			100%{background-color: brown; left:0px; top:0px;transform:rotate(360deg);}
+		}
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

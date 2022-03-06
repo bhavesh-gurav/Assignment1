@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Practicle</title>
+
+    <style type="text/css">
+        body {
+            background-color: aqua;
+        }
+        #box1 {
+            width: 250px;
+            height: 250px;
+            background-color: red;
+            margin-bottom: 15px;
+        }
+    </style>
+
+    <script src="External/Externalcss.js"></script>
+
+    <script type="text/Javascript">
+        function DemoInternalalert() {
+            alert("This is Internal Event of alert")
+        }
+        function DemoInternalprompt() {
+            var fname = prompt("Enter your name :");
+            var lname = prompt("Enter your name :");
+            alert(fname+" "+lname);
+        }
+        function DemoInternalconfirm() {
+            if(confirm("This is Internal Event of alert")){
+                alert("Are ya ya apaka intejar he")
+            }
+            else {
+                alert("Mari jay mang kasale una athe")
+            }
+        }
+        function bgpinkcolor() {
+            document.body.style.backgroundColor = "pink";
+        }
+
+        function objcolor() {
+            document.getElementById("box1").style.backgroundColor = "Blue";
+        }
+
+        function bodycolor() {
+            document.body.style.backgroundColor=prompt("Enter your color :");
+        }
+
+        function objdynamic() {
+            document.getElementById("box1").style.backgroundColor=prompt("Enter a color :")
+        }
+
+        function changecolor() {
+            document.body.style.backgroundColor = document.getElementById("changecolor").value;
+        }
+        function changecolor1() {
+            document.getElementById("box1").style.backgroundColor=document.getElementById("changecolor1").value;
+        }
+    </script>
+</head>
+<body>
+    <div id="box1"></div>
+
+    <input type="button" name="alerttag" value="Alert" onmouseover="alert('This is alert')">
+    <input type="button" name="prompttag" value="prompt" onclick="prompt('This is prompt')">
+    <input type="button" name="confirmtag" value="confirm" onclick="confirm('This is confirm')">
+
+    <hr>
+
+    <input type="button" name="internaljs" value="InternalValue" onclick="DemoInternalalert()">
+    <input type="button" name="internaljs" value="InternalValue" onclick="DemoInternalprompt()">
+    <input type="button" name="internaljs" value="InternalValue" onclick="DemoInternalconfirm()">
+
+    <hr>
+
+    <input type="button" name="Externaljs" value="Externaljsalert" onclick="Externalalert()">
+    <input type="button" name="Externaljs" value="Externaljsprompt" onclick="Externalprompt()">
+    <input type="button" name="Externaljs" value="Externaljsconfirm" onclick="Externalconfirm()">
+
+    <hr>
+
+    <input type="button" name="bgcolor" value="colorchange" onclick="bgpinkcolor()">
+    <input type="button" name="objcolor" id="objc" value="objectcolor" onclick="objcolor()">
+
+    <hr>
+
+    <input type="button" name="bodyprompt" value="Prompt color" id="bgcolor1" onclick="bodycolor()">
+    <input type="button" name="objcolor" value="objcolor" onclick="objdynamic()">
+
+    <hr>
+
+    <input type="color" id="changecolor" onchange="changecolor()">
+    <input type="color" id="changecolor1" onchange="changecolor1()">
+</body>
+</html>

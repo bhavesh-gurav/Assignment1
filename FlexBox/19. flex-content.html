@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Practical 18</title>
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        div.main-container {
+            border: 4px solid black;
+            display: flex;
+            height: 400px;
+            align-items: flex-end;
+        }
+        div.item {
+            color: brown;
+            font-size: 1rem;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        div.sec1 {
+            background-color: yellow;
+            align-self: flex-start;
+        }
+        div.sec2 {
+            background-color: rgb(94, 224, 34);
+            
+        }
+        div.sec3 {
+            background-color: darkturquoise;
+            align-self: center;
+        }
+        div.sec4 {
+            background-color: rgb(11, 252, 172);
+            align-self: stretch;
+        }
+        div.sec5 {
+            background-color: rgb(214, 43, 230);  
+            font-size: 30px;
+            align-self: flex-start;
+        }
+        div.sec6 {
+            background-color: rgb(255, 0, 0);
+        }
+        div.sec7 {
+            background-color: rgb(255, 94, 0);
+        }
+        div.sec8 {
+            background-color: rgb(0, 81, 255);
+        }
+        div.sec9 {
+            background-color: rgb(23, 36, 61);
+        }
+        div.sec10 {
+            background-color: rgb(42, 65, 109);
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="item sec1">Section 1 <br> Flex start</div>
+        <div class="item sec2">Section 2 <br> flex end</div>
+        <div class="item sec3">Section 3 <br> center</div>
+        <div class="item sec4">Section 4 <br> streach</div>
+        <div class="item sec5">Section 5</div>
+        <div class="item sec6">Section 6</div>
+        <div class="item sec7">Section 7</div>
+        <div class="item sec8">Section 8</div>
+        <div class="item sec9">Section 9</div>
+        <div class="item sec10">Section 10</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Practical 17</title>
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        div.main-container {
+            border: 4px solid black;
+            display: flex;
+        }
+        div.item {
+            color: brown;
+            padding: 0.75rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        div.sec1 {
+            background-color: yellow;
+            /* padding-bottom: 1rem; */
+            /* order: 2; */
+        }
+        div.sec2 {
+            background-color: rgb(94, 224, 34);
+            /* padding-bottom: 2rem; */
+        }
+        div.sec3 {
+            background-color: darkturquoise;
+            /* font-size: 3rem; */
+            /* order: 1; */
+        }
+        div.sec4 {
+            background-color: rgb(11, 252, 172);
+        }
+        div.sec5 {
+            background-color: rgb(214, 43, 230);
+             /* order: -1;  if i take -ve value it go to starting */
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="item sec1">Section 1</div>
+        <div class="item sec2">This is Section 2</div>
+        <div class="item sec3">Section 3</div>
+        <div class="item sec4">Section 4 Completed</div>
+        <div class="item sec5">Section 5</div>
+    </div>
+</body>
+</html>

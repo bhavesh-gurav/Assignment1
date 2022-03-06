@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation Of CSS</title>
+    <style type="text/css">
+        div
+        {
+            height:200px;
+            width:200px;
+            transition:3s;
+            font-size:20px;
+            font-weight: bold;
+            color: black;
+            background-color:Red;
+        }
+        #Translate:hover
+        {
+            -webkit-transform:translate(100px,100px);
+            -moz-transform:translate(100px,100px);
+            -ms-transform:translate(100px,100px);
+            -o-transform:translate(100px,100px);
+            transform:translate(100px,100px);
+            background-color:Blue;
+                color:Yellow; 
+        }
+        #Rotate:hover
+        {
+            transform: rotate(360deg);
+            background-color: green;
+            color: aliceblue;
+        }
+        #Rotate3D:hover
+        {
+            transform: rotate3d(1, 1, 0, 360deg);
+        }
+        #skew:hover
+        {
+            transform: skew(45deg);
+        }
+        #scale:hover
+        {
+            transform: scale(1.5, 0.5);
+        }
+        #opacity:hover
+        {
+            opacity: 0.2;
+        }
+        #RGBA:hover
+        {
+            background-color: rgba(255, 255, 0, 0.5);
+        }
+        #Boxshadow:hover
+        {
+            box-shadow: 0px 0px 30px blue;
+        }
+        #Textshadow:hover
+        {
+            text-shadow: 3px 3px 3px blue;
+        }
+        #Borderradius:hover
+        {
+            border-radius: 50%;
+        }
+        #overflow:hover
+        {
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="Translate">Translate</div><hr/>
+    <div id="Rotate">Rotate</div><hr/>
+    <div id="Rotate3D">Rotate 3D</div><hr/>
+    <div id="skew">Skew</div><hr/>
+    <div id="scale">Scaled</div><hr/>
+    <div id="opacity">Opacity</div><hr/>
+    <div id="RGBA">RGBA</div><hr/>
+    <div id="Boxshadow">Box Shadow</div><hr/>
+    <div id="Textshadow">Text shadow</div><hr/>
+    <div id="Borderradius">Border Radius</div><hr/>
+    <div id="overflow">Overflow</div><hr/>
+</body>
+</html>
