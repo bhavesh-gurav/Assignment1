@@ -1,0 +1,15 @@
+C:\Users\Bhavesh.Gurav\source\repos\MyOOPSConcept\MyOOPSConcept\bin\Debug\net6.0\MyOOPSConcept.exe
+C:\Users\Bhavesh.Gurav\source\repos\MyOOPSConcept\MyOOPSConcept\bin\Debug\net6.0\MyOOPSConcept.deps.json
+C:\Users\Bhavesh.Gurav\source\repos\MyOOPSConcept\MyOOPSConcept\bin\Debug\net6.0\MyOOPSConcept.runtimeconfig.json
+C:\Users\Bhavesh.Gurav\source\repos\MyOOPSConcept\MyOOPSConcept\bin\Debug\net6.0\MyOOPSConcept.dll
+C:\Users\Bhavesh.Gurav\source\repos\MyOOPSConcept\MyOOPSConcept\bin\Debug\net6.0\MyOOPSConcept.pdb
+C:\Users\Bhavesh.Gurav\source\repos\MyOOPSConcept\MyOOPSConcept\obj\Debug\net6.0\MyOOPSConcept.csproj.AssemblyReference.cache
+C:\Users\Bhavesh.Gurav\source\repos\MyOOPSConcept\MyOOPSConcept\obj\Debug\net6.0\MyOOPSConcept.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bhavesh.Gurav\source\repos\MyOOPSConcept\MyOOPSConcept\obj\Debug\net6.0\MyOOPSConcept.AssemblyInfoInputs.cache
+C:\Users\Bhavesh.Gurav\source\repos\MyOOPSConcept\MyOOPSConcept\obj\Debug\net6.0\MyOOPSConcept.AssemblyInfo.cs
+C:\Users\Bhavesh.Gurav\source\repos\MyOOPSConcept\MyOOPSConcept\obj\Debug\net6.0\MyOOPSConcept.csproj.CoreCompileInputs.cache
+C:\Users\Bhavesh.Gurav\source\repos\MyOOPSConcept\MyOOPSConcept\obj\Debug\net6.0\MyOOPSConcept.dll
+C:\Users\Bhavesh.Gurav\source\repos\MyOOPSConcept\MyOOPSConcept\obj\Debug\net6.0\refint\MyOOPSConcept.dll
+C:\Users\Bhavesh.Gurav\source\repos\MyOOPSConcept\MyOOPSConcept\obj\Debug\net6.0\MyOOPSConcept.pdb
+C:\Users\Bhavesh.Gurav\source\repos\MyOOPSConcept\MyOOPSConcept\obj\Debug\net6.0\MyOOPSConcept.genruntimeconfig.cache
+C:\Users\Bhavesh.Gurav\source\repos\MyOOPSConcept\MyOOPSConcept\obj\Debug\net6.0\ref\MyOOPSConcept.dll
